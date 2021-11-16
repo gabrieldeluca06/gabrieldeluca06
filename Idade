@@ -1,0 +1,14 @@
+programa {
+	funcao inicio() {
+	    inteiro ano
+		inteiro anoAtual = 2021
+		escreva("Digite o seu ano de nascimento: ")
+		leia(ano)
+		se(ano > 0){
+		escreva("Você tem:"+ (anoAtual - ano))
+		}senao{
+		    escreva("Esse numero é negativo")
+		}
+		
+	}
+}
