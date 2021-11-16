@@ -1,0 +1,15 @@
+programa {
+	funcao inicio() {
+		inteiro numeroUm
+		inteiro numeroDois
+		escreva("Digite um numero: ")
+		leia(numeroUm)
+		escreva("Digite outro numero: ")
+		leia(numeroDois)
+		se(numeroUm>numeroDois){
+		    escreva(numeroDois+" e "+numeroUm)
+		}senao{
+		    escreva("Você digitou "+numeroUm+" e "+numeroDois)
+		}
+	}
+}
